@@ -56,6 +56,7 @@ class MaxHeap:
 
 
 heap = MaxHeap()
+heap.buildHeap([1, 12, 54, 62, 88, 91])
 heap.insert(12)
 heap.insert(10)
 heap.insert(-10)
