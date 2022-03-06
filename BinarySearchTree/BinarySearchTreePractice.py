@@ -31,6 +31,7 @@ class BST(object):
             if self.root.data == val:
                 return True
             return self.search_children(self.root, val)
+        return None
     
     def search_children(self, current, val):
         if current:
